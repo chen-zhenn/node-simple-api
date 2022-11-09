@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/chen-zhenn/node-simple-api"
   },
   "scripts": {
     "start": "nodemon api/index.js"
