@@ -2,10 +2,9 @@ const db = require('../models')
 
 module.exports = class Categoria {
     static async get(req,res){
-        const data = await db.categorias.findAll()
-
+        
         try {
-            data
+            const data = await db.categorias.findAll()
             return res
                 .status(202)
                 .json(data)
