@@ -14,6 +14,6 @@ __Motivo(s)__: Pois as constraints é criada por fora.
 
 * :fire: __Comandos__: 
 
-    > :bulb: __Criar/gerar modelos__: `yarn dlx sequelize-cli:generate --name nome-da-entidade --attributes nome-do-atributo-a:string, nome-do-atributo-b:string`
+    > :bulb: __Criar/gerar modelos__: `yarn dlx sequelize-cli model:generate --name nome-da-entidade --attributes nome-do-atributo-a:string, nome-do-atributo-b:string`
 
     > :bulb: __Criar/gerar entidades-tabelas__: `yarn dlx sequelize-cli db:migrate`
