@@ -9,7 +9,7 @@ __Motivo(s)__:
 
 > Criar os modelos na ordem de sua dependência, se um atríbuto da **entidade x(fraca)** contém relacionamento com **entidade y(forte)**, porém esta mesma **entidade y(forte)** está relacionada ao atributo da **entidade z(fraca)**. Então comece pela **entidade z(fraca)**.
 
-> Criar os modelos apenas com atríbutos/campos de tipo natural - que não é uma **chave estrangeira**.
+> Criar os modelos apenas com atríbutos/campos de tipo natural - que não é uma **chave estrangeira**.  
 __Motivo(s)__: Pois as constraints é criada por fora.
 
 * :fire: __Comandos__: 
