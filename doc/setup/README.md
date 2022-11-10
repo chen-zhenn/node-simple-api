@@ -58,7 +58,7 @@
 11. __Criar models__:
 
     Criar os **modelos** das entidade/tabelas através do CLI do Sequelize:
-    `yarn dlx sequelize-cli model:generate --name nome-da-entidade/tabela --attributes nome-do-campo-1:string<tipo-de-dado>, nome-campo-2:string`  
+    `yarn dlx sequelize-cli model:generate --name nome-da-entidade/tabela --attributes nome-do-campo-1:string<tipo-de-dado>,nome-campo-2:string`  
     
     > __Obs__: Definir nome de entidades/tabela no plural.
 
