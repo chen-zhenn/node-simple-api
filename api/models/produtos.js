@@ -11,15 +11,15 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       produtos.belongsTo(models.categorias, {
-        foreignKey: 'categoria',
+        foreignKey: 'categoria_id',
         type: DataTypes.INTEGER
       }),
       produtos.belongsTo(models.marcas, {
-        foreignKey: 'marca',
+        foreignKey: 'marca_id',
         type: DataTypes.INTEGER
       }),
       produtos.belongsTo(models.fornecedores, {
-        foreignKey: 'fornecedor',
+        foreignKey: 'fornecedor_id',
         type: DataTypes.INTEGER
       })
     }
@@ -28,7 +28,7 @@ module.exports = (sequelize, DataTypes) => {
     sku: DataTypes.STRING,
     nome: DataTypes.STRING,
     preco: DataTypes.FLOAT,
-    volume: DataTypes.ENUM,
+    volume: DataTypes.ENUM('unidade','caixa','pacote'),
     quantidade: DataTypes.INTEGER,
     imagem: DataTypes.STRING
   }, {

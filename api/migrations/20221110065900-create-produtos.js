@@ -32,17 +32,17 @@ module.exports = {
       imagem: {
         type: Sequelize.STRING
       },
-      categoria: {
+      categoria_id: {
         allowNull: false,
         type: Sequelize.INTEGER,
         references: { model: 'categorias', key: 'id' }
       },
-      marca: {
+      marca_id: {
         allowNull: false,
         type: Sequelize.INTEGER,
         references: { model: 'marcas', key: 'id' }
       },
-      fornecedor: {
+      fornecedor_id: {
         allowNull: false,
         type: Sequelize.INTEGER,
         references: { model: 'fornecedores', key: 'id' }

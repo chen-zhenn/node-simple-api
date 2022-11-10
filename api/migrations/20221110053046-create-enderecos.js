@@ -27,7 +27,7 @@ module.exports = {
       estado: {
         type: Sequelize.STRING
       },
-      fornecedor: {
+      fornecedor_id: {
         allowNull: false,
         type: Sequelize.INTEGER,
         references: { model: 'fornecedores', key: 'id' }
