@@ -1,4 +1,9 @@
-## Passos(incremental) para setup da API em Node:
+## :rocket: Configurações
+
+### Passos(incremental) para setup da API em Node com ORM Sequelize:
+
+> __Obs__: Não necessariamente deve-se seguir a ordem, pois trata o mesmo de forma incremental para entendimento de como o ORM atua/se encaixa juntamente com o Framework **Express**.
+:bulb: __Nota: Poderia muito bem instalar todas as dependências primeiro incluindo as do ORM.__
 
 1. __yarn init__:
 
