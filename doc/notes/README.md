@@ -2,8 +2,8 @@
 
 ### ORM Sequelize:
 
-> Comece criando os modelos sempre pelas **entidades fortes**.
-__Motivo(s)__:
+> Comece criando os modelos sempre pelas **entidades fortes**.  
+__Motivo(s)__:  
     **1.** Por **entidades fortes** não ter dependências não irá gera conflitos para rodar as **migrations**.
     **2.** As constraints são adicionadas por fora, depois que você criou os modelos da **entidade fraca**.
 
