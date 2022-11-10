@@ -4,7 +4,7 @@
 
 > Comece criando os modelos sempre pelas **entidades fortes**.  
 __Motivo(s)__:  
-    **1.** Por **entidades fortes** não ter dependências não irá gera conflitos para rodar as **migrations**.
+    **1.** Por **entidades fortes** não ter dependências não irá gera conflitos para rodar as **migrations**.  
     **2.** As constraints são adicionadas por fora, depois que você criou os modelos da **entidade fraca**.
 
 > Criar os modelos na ordem de sua dependência, se um atríbuto da **entidade x(fraca)** contém relacionamento com **entidade y(forte)**, porém esta mesma **entidade y(forte)** está relacionada ao atributo da **entidade z(fraca)**. Então comece pela **entidade z(fraca)**.
