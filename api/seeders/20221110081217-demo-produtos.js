@@ -11,9 +11,9 @@ module.exports = {
         volume: 'caixa',
         quantidade: 5,
         imagem: 'https://url/path-image-prod-caneta-esferográfica-azul-bic-caixa.jpg',
-        categoria: 2,
-        marca: 1,
-        fornecedor: 1,
+        categoria_id: 2,
+        marca_id: 1,
+        fornecedor_id: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       }, {
@@ -23,9 +23,9 @@ module.exports = {
         volume: 'pacote',
         quantidade: 50,
         imagem: 'https://url/path-image-prod-sulfite-pacote.jpg',
-        categoria: 2,
-        marca: 3,
-        fornecedor: 2,
+        categoria_id: 2,
+        marca_id: 3,
+        fornecedor_id: 2,
         createdAt: new Date(),
         updatedAt: new Date()
       }, {
@@ -35,9 +35,9 @@ module.exports = {
         volume: 'unidade',
         quantidade: 20,
         imagem: 'https://url/path-image-prod-marca-texto-unidade.jpg',
-        categoria: 2,
-        marca: 2,
-        fornecedor: 3,
+        categoria_id: 2,
+        marca_id: 2,
+        fornecedor_id: 3,
         createdAt: new Date(),
         updatedAt: new Date()
       }, {
@@ -47,9 +47,9 @@ module.exports = {
         volume: 'caixa',
         quantidade: 5,
         imagem: 'https://url/path-image-prod-caneta-esferográfica-azul-fabercastell-caixa.jpg',
-        categoria: 2,
-        marca: 2,
-        fornecedor: 3,
+        categoria_id: 2,
+        marca_id: 2,
+        fornecedor_id: 3,
         createdAt: new Date(),
         updatedAt: new Date()
       }], {});

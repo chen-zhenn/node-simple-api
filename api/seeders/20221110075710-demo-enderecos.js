@@ -11,7 +11,7 @@ module.exports = {
         bairro: 'Consolação',
         cidade: 'São Paulo',
         estado: 'SP',
-        fornecedor: 1,
+        fornecedor_id: 1,
         createdAt: new Date(),
         updatedAt: new Date()
       }, {
@@ -21,7 +21,7 @@ module.exports = {
         bairro: 'Jardim Paulista',
         cidade: 'São Paulo',
         estado: 'SP',
-        fornecedor: 3,
+        fornecedor_id: 3,
         createdAt: new Date(),
         updatedAt: new Date()
       }, {
@@ -31,7 +31,7 @@ module.exports = {
         bairro: 'Jardim Aricanduva',
         cidade: 'São Paulo',
         estado: 'SP',
-        fornecedor: 2,
+        fornecedor_id: 2,
         createdAt: new Date(),
         updatedAt: new Date()
       }], {});
