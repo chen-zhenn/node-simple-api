@@ -27,6 +27,11 @@ module.exports = {
       estado: {
         type: Sequelize.STRING
       },
+      fornecedor: {
+        allowNull: false,
+        type: Sequelize.INTEGER,
+        references: { model: 'fornecedores', key: 'id' }
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
