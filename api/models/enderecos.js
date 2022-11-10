@@ -11,7 +11,7 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       enderecos.belongsTo(models.fornecedores, {
-        foreignKey: 'fk_fornecedores_enderecos',
+        foreignKey: 'fornecedor',
         type: DataTypes.INTEGER
       })
     }
