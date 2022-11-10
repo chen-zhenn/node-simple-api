@@ -3,6 +3,7 @@ const categoriaRoute = require('./categoria-route')
 const marcaRoute = require('./marca-route')
 const fornecedorRoute = require('./fornecedor-route')
 const enderecoRoute = require('./endereco-route')
+const produtoRoute = require('./produto-route')
 
 module.exports = app => {
     app.use([
@@ -13,6 +14,7 @@ module.exports = app => {
         categoriaRoute,
         marcaRoute,
         fornecedorRoute,
-        enderecoRoute
+        enderecoRoute,
+        produtoRoute
     ])
 }
