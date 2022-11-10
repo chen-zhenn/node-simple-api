@@ -1,12 +1,12 @@
 const db = require('../models')
 
-module.exports = class Categoria {
+module.exports = class Fornecedor {
 
     static async add(req,res){
         
         try {
             const bodyData = req.body
-            const data = await db.categorias
+            const data = await db.fornecedores
                 .create(bodyData)
             return res
                 .status(202)
@@ -21,7 +21,7 @@ module.exports = class Categoria {
     static async getAll(req,res){
         
         try {
-            const data = await db.categorias.findAll()
+            const data = await db.fornecedores.findAll()
             return res
                 .status(200)
                 .json(data)
@@ -35,7 +35,7 @@ module.exports = class Categoria {
         
         try {
             const { id } = req.params
-            const data = await db.categorias
+            const data = await db.fornecedores
                 .findAll({
                     where: { id } 
                 })
@@ -54,7 +54,7 @@ module.exports = class Categoria {
         try {
             const { id } = req.params
             const bodyData = req.body
-            const data = await db.categorias
+            const data = await db.fornecedores
                 .update(
                     bodyData,
                     {
@@ -74,7 +74,7 @@ module.exports = class Categoria {
         
         try {
             const { id } = req.params
-            const data = await db.categorias
+            const data = await db.fornecedores
                 .destroy({
                     where: { id }
                 })
